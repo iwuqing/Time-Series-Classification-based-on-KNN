@@ -4,8 +4,7 @@
 这里使用了传统的机器学习方法**K-NearestNeighbor**结合**Dynamic Time Warping（动态时间规整）** 进行时间序列分析，针对开源数据集:[UCR Time Series Classification Archive](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)
 最高精度可达**97%**
 ## K-NearestNeighbor
-这是一种十分简单却很实用的聚类算法，KNN总的来说可以归结于一句话：**物以类聚，人以群分**。KNN的关键点在于**如何度量物的相似度**，尤其是当处理时间序列这
-一类由于时延、噪声等干扰因素所带来极其不稳定的特点时。关于KNN的具体细节可以[查看维基](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+这是一种十分简单却很实用的聚类算法，KNN总的来说可以归结于一句话：**物以类聚，人以群分**。KNN的关键点在于**如何度量物的相似度**，尤其是当处理时间序列这一类由于时延、噪声等干扰因素所具有极其不稳定的特点的数据时。关于KNN的具体细节可以[查看维基](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
 ## Dynamic Time Warping
 DTW算法是用于求解两个序列直接的**最大相似度**，有关于它的细节可以[查看这篇博文](https://www.jianshu.com/p/4c905853711c)，在这里使用DTW来度量
