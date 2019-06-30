@@ -1,0 +1,15 @@
+Name, train size, test size, class, length 
+DodgerLoopDay, 78, 80, 7, 288 
+DodgerLoopGame, 20, 138, 2, 288 
+DodgerLoopWeekend, 20, 138, 2, 288 
+AllGestureWiimoteX, 300, 700, 10, 500 
+AllGestureWiimoteY, 300, 700, 10, 500 
+AllGestureWiimoteZ, 300, 700, 10, 500 
+GestureMidAirD1, 208, 130, 26, 360 
+GestureMidAirD2, 208, 130, 26, 360 
+GestureMidAirD3, 208, 130, 26, 360 
+GesturePebbleZ1, 132, 172, 6, 455 
+GesturePebbleZ2, 146, 158, 6, 455 
+PickupGestureWiimoteZ, 50, 50, 10, 361 
+PLAID, 537, 537, 11, 1345 
+ShakeGestureWiimoteZ, 50, 50, 10, 385 
